@@ -2,26 +2,118 @@ html{background-color:rgba(2, 6, 29, 0.849);
     text-align: center;
     top: 0px;
     }
+body{margin: 0;
+        overflow-x: hidden;
+      }
 
-div.cover{background-color: aquamarine;
+div#cover{background-color: rgba(36, 0, 0, 0.334);
+            margin: auto;
+            height: 100dvh;
+            top: 0;
+            width: 97,8dvw;
+            div.ujung{border: 5px solid rgba(255, 217, 0, 0.457);height:98.435dvh;
+            }
+
+            div.nama{flex-wrap: nowrap;
+                    flex-direction: column;
+                    row-gap: 0px;
+                    column-gap: 0px;
+                    font-style: oblique;
+                        h1.A{padding-right: 150px;}  
+                        h1.B{padding-left: 150px;} 
+                }
+            .fotoini{text-align: center;z-index: 1;
+                    margin: auto;  
+                    width: max-content;
+                    
+                .pinggiran4{border:  5px solid rgba(7, 0, 34, 0.473);
+                            rotate: 10deg;
+                            margin-left: auto;
+                            margin-right: auto;
+                            border-radius: 2px;
+                            width: 200px;
+                    .pinggiran3{border:  5px solid rgba(7, 0, 34, 0.473);
+                                rotate: 15deg;
+                                margin: auto;
+                                border-radius: 4px;
+                                width: 200px;
+
+                        .pinggiran2{border:  5px solid rgba(7, 0, 34, 0.473);
+                                    rotate: 20deg;
+                                    margin: auto;
+                                    border-radius: 5px;
+                                    width: 200px;
+            
+                            .pinggiran{border:  5px solid rgba(7, 0, 34, 0.473);
+                                        rotate: 20deg;
+                                        margin: auto;
+                                        width: 200px;
+
+                                        img{width: 200px;
+                                            border-radius: 15px;
+                                            border: 5px solid rgba(7, 0, 34, 0.473);
+                                            rotate: -65deg;
+                                            margin: auto;   }
+                                    }
+                                }
+                            }
+                        }
+                    }
+    }
+div#isi{background-color: rgba(46, 200, 231, 0.334);
+        margin: auto;
         height: 100dvh;
         top: 0;
-        div.nama{flex-wrap: nowrap;
-                flex-direction: column;
-                row-gap: 0px;
-                column-gap: 0px;
-                h1.A{padding-right: 150px;}  
-                h1.B{padding-left: 150px;}  
-            }
-        img{width: 200px;
-            border-radius: 15px;
-            border: 5px solid rgba(7, 0, 34, 0.473);
-        
-        }
-    }
+        width: 97,8dvw;
+        align-content: center;
+        flex-direction: row;
+        display: flex;
+        padding-top: 10px;
 
-div.mapdiv{background-color: aqua;
+      
+        
+}
+        .carousel {
+            position: relative; width: 100%;
+            max-width: 50%;
+            max-height:80% ;
+            margin: 0 auto;
+            display: flex;
+            }
+        .carousel-inner {
+            position: relative; overflow: hidden;
+            width: 100%;
+            }
+        .carousel-inner img {
+            display: none;
+            width: 100%;
+            height: auto;
+            }
+
+    .carousel-inner img.active {
+        display: block;
+        }
+    .prev,.next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        }
+    .prev {
+        left: 10px;
+        }
+    .next {
+        right: 10px;
+        }
+
+
+div#mapdiv{position: sticky;
+            background-color: aqua;
             height: 100dvh;
+            width: 97,8dvw;
             div{padding-top:40px;
                 height: 300px;
                 iframe{border: 4px solid rgba(0, 27, 27, 0.863);
