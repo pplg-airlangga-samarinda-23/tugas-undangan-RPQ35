@@ -34,3 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     startAutoSlide();
 });
+document.addEventListener("DOMContentLoaded", function(){
+  document.getElementById('opendiv').addEventListener('click', function() {
+    document.getElementById('fullisi').style.display = 'block';
+  });
+});
