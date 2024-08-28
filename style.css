@@ -11,6 +11,7 @@ div#cover{background-color: rgba(36, 0, 0, 0.334);
             height: 100dvh;
             top: 0;
             width: 97,8dvw;
+            overflow-block: hidden;
             div.ujung{border: 5px solid rgba(255, 217, 0, 0.457);height:98.435dvh;
             }
 
