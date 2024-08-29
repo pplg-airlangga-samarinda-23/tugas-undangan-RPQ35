@@ -62,6 +62,29 @@
     <audio loop autoplay> 
         <source src="music.mp3">
     </audio>
+
+    <?php
+
+    $host="localhost";
+    $username="root";
+    $password="";
+    $database="undagan";
+    $koneksi=new mysqli($host,$username,$password, $database);
+    if ($koneksi->connect_error) {
+        print"koneksi database gagal";}
+    else {
+        print"koneksi databse berhasil";
+        }
+    
+    $query="select *from bukutamu";
+    $hasil=$koneksi->query($query);
+    
+        while ($baris = $hasil->fetch_array()) {
+            echo $baris[0].",".$baris[1].",".$baris[2]."<br";
+        }
+      $hasil->free_result() ;
+        $koneksi->close();
+    ?>
 </div>
 </body>
 </html>
