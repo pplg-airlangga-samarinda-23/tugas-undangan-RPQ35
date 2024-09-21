@@ -150,3 +150,12 @@ div#fullisi{
                     }
                 }
  }
+div.itulah{display: flex;
+            flex-direction: column;
+        div{display: flex;}}
+    
+div#iman{
+    background-color: cornflowerblue;
+                    height: 100dvh;
+                    width: 97,8dvw;
+}
