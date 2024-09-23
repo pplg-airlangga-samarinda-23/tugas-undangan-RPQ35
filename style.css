@@ -22,7 +22,7 @@ div#cover{background-color: rgba(36, 0, 0, 0.334);
                 width: 150px;
                 height: 100px;
                 border-top-right-radius: 60px;
-                border-bottom-right-radius: 60px;
+                border-top-left-radius: 60px;
               }
               
               button.opendiv {
@@ -41,9 +41,14 @@ div#cover{background-color: rgba(36, 0, 0, 0.334);
                     flex-direction: column;
                     row-gap: 0px;
                     column-gap: 0px;
+                    font: bold;
+                    font-size:200;
                     font-style: oblique;
-                        h1.A{padding-right: 150px;}  
-                        h1.B{padding-left: 150px;} 
+                        p{float: left;
+                          margin: auto;}
+                        p.A{padding-top: 0;}  
+                        p.B{padding-top: 0;}
+                        p.C{padding-top: 0;}
                 }
             .fotoini{text-align: center;z-index: 1;
                     margin: auto;  
@@ -54,25 +59,25 @@ div#cover{background-color: rgba(36, 0, 0, 0.334);
                             margin-left: auto;
                             margin-right: auto;
                             border-radius: 2px;
-                            width: 200px;
+                            width: 20dvw;
                     .pinggiran3{border:  5px solid rgba(7, 0, 34, 0.473);
                                 rotate: 15deg;
                                 margin: auto;
                                 border-radius: 4px;
-                                width: 200px;
+                                width: 20dvw;
 
                         .pinggiran2{border:  5px solid rgba(7, 0, 34, 0.473);
                                     rotate: 20deg;
                                     margin: auto;
                                     border-radius: 5px;
-                                    width: 200px;
+                                    width: 20dvw;
             
                             .pinggiran{border:  5px solid rgba(7, 0, 34, 0.473);
                                         rotate: 20deg;
                                         margin: auto;
-                                        width: 200px;
+                                        width: 20dvw;
 
-                                        img{width: 200px;
+                                        img{width: 20dvw;
                                             border-radius: 15px;
                                             border: 5px solid rgba(7, 0, 34, 0.473);
                                             rotate: -65deg;

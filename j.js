@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 const audio = document.getElementById("dunia");
 
-document.addEventListener("DOMContentLoaded",'canplay', function(){
+document.addEventListener("DOMContentLoaded", function(){
     document.getElementById('opendiv').addEventListener('click', function() {
       document.getElementById('fullisi').style.display = 'block';
-      audio.play();
+    //   audio.play();
       Array.prototype.forEach.call(document.getElementsByClassName('coba'), function(element) {
         element.style.display = 'none';
       });
